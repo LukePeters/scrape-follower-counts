@@ -9,11 +9,11 @@ Automatically collect these statistics at the end of each month:
 The data will be stored in sqlite like this:
 
 ---------------------------------------------------------
-date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;youtube&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;twitter&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;instagram&nbsp;&nbsp;&nbsp;|
+date        |   youtube   |   twitter   |   instagram   |
 ---------------------------------------------------------
-1647279134&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3k&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;450&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;800&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+1647279134  |     1.3k    |     450     |      800      |
 ---------------------------------------------------------
-1647279134&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;350&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;700&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+1647279134  |     400     |     350     |      700      |
 ---------------------------------------------------------
-1647279134&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;250&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;600&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+1647279134  |     300     |     250     |      600      |
 ---------------------------------------------------------
