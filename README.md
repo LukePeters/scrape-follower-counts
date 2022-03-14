@@ -6,7 +6,7 @@ Automatically collect these statistics at the end of each month:
 - Twitter Followers
 - Instagram Followers
 
-Follow the tutorial for this project on YouTube:
+#### Follow the tutorial for this project on YouTube:
 
 [Scraping YouTube, Twitter, and Instagram with Python and Selenium](https://www.youtube.com/watch?v=PzHtVy3VIao)
 
