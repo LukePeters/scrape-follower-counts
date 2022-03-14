@@ -1,4 +1,4 @@
-# Scrape YouTube, Twitter, and Instagram Follower Counts
+# Scraping Follower Counts
 
 Automatically collect these statistics at the end of each month:
 
