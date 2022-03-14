@@ -10,7 +10,7 @@ Automatically collect these statistics at the end of each month:
 
 [Scraping YouTube, Twitter, and Instagram with Python and Selenium](https://www.youtube.com/watch?v=PzHtVy3VIao)
 
-The data will be stored in sqlite like this:
+#### The data will be stored in sqlite like this:
 
 ---------------------------------------------------------
 date        |   youtube   |   twitter   |   instagram   |
