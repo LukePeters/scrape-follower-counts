@@ -10,14 +10,6 @@ Automatically collect these statistics at the end of each month:
 
 [Scraping YouTube, Twitter, and Instagram with Python and Selenium](https://www.youtube.com/watch?v=PzHtVy3VIao)
 
-#### The data will be stored in sqlite like this:
+#### The data will be stored in SQLite like this:
 
----------------------------------------------------------
-date        |   youtube   |   twitter   |   instagram   |
----------------------------------------------------------
-1647279134  |     1.3k    |     450     |      800      |
----------------------------------------------------------
-1647279134  |     400     |     350     |      700      |
----------------------------------------------------------
-1647279134  |     300     |     250     |      600      |
----------------------------------------------------------
+![SQLite data layout](https://github.com/LukePeters/scrape-follower-counts/blob/main/static/sqlite-data-layout.png?raw=true)
