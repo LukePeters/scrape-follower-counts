@@ -1,0 +1,7 @@
+__pycache__
+*.pyc
+templates/sample-data.html
+followers.db
+geckodriver.log
+outline.md
+Pipfile.lock

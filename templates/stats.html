@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Follower Records</title>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  
+</head>
+<body>
+
+  {% if records|length %}
+    <section class="large-stats-wrapper">
+      <div class="large-stats">
+        <div class="stat">
+          <h2 class="stat__title stat__title--youtube">YouTube Subscribers</h2>
+          <span class="stat__number">{{ records[0]['youtube'] }}</span>
+        </div>
+        <div class="stat">
+          <h2 class="stat__title stat__title--twitter">Twitter Followers</h2>
+          <span class="stat__number">{{ records[0]['twitter'] }}</span>
+        </div>
+        <div class="stat">
+          <h2 class="stat__title stat__title--instagram">Instagram Followers</h2>
+          <span class="stat__number">{{ records[0]['instagram'] }}</span>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="records">
+    <div class="table-wrapper">
+      <div class="table">
+        <div class="table__row">
+          <div class="table__cell">Date</div>
+          <div class="table__cell">YouTube</div>
+          <div class="table__cell">Twitter</div>
+          <div class="table__cell">Instagram</div>
+        </div>
+        {% for entry in records %}
+          <div class="table__row">
+            <div class="table__cell">{{ entry['date'] }}</div>
+            <div class="table__cell">{{ entry['youtube'] }}</div>
+            <div class="table__cell">{{ entry['twitter'] }}</div>
+            <div class="table__cell">{{ entry['instagram'] }}</div>
+          </div>
+        {% else %}
+          <div class="table__row">
+            <div class="table__cell">No records yet</div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
