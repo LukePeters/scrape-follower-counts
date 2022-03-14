@@ -17,3 +17,7 @@ date        |   youtube   |   twitter   |   instagram   |
 ---------------------------------------------------------
 1647279134  |     300     |     250     |      600      |
 ---------------------------------------------------------
+
+## Tutorial Video
+
+[Scraping YouTube, Twitter, and Instagram with Python and Selenium](https://www.youtube.com/watch?v=PzHtVy3VIao)
